@@ -1,0 +1,70 @@
+body {
+    background-color: lightseagreen;
+    color: #000000;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    border: 10px dotted darkslategray;
+    margin: 0px;
+}
+h1 {
+    border: 7px double lightskyblue;
+    font-size: 250%;
+    font-family: 'Lucida Grande';
+    background-color: midnightblue;
+    color: #FFFFFF;
+}
+p {
+    font-size: 175%;
+}
+a {
+    font-size: 150%;
+}
+a:visited, a-link{
+    color: #FFFFFF;
+}
+a:hover {
+    color: mediumblue;
+}
+li {
+    text-align: left;
+	padding: 10px;
+	font-size: 150%;
+}
+.headers {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 175%;
+    border: 3px solid rgb(199, 181, 181);
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.grid {
+    display: flex;
+    border: 5px dotted #ffe4e1;
+    background-color: #000000;
+    font-size: 75%;
+    font-family: 'Times New Roman', Times, serif;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+    margin: 10px;
+}
+.grid img {
+    border: 2px dotted #ffe4e1;
+    border-radius: 50px;
+}
+.origami {
+    border: 3px double mediumslateblue;
+    border-radius: 20px;
+    width: 310px;
+    font-family: fantasy;
+    margin: 5px;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
